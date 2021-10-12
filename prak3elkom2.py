@@ -6,8 +6,8 @@ a,b = (
 )
 c= b-a
 print("Kembalian Anda sejumlah Rp.",c,'Pecahan uang yang dibutuhkan :')
-d= [5000, 2000]
-for x in range(0, 2):
+d= [50000, 20000, 10000, 5000, 2000, 1000, 500, 200, 100]
+for x in range(0, 9):
     i=0
     while c >= d[x]:
         c = c - d[x]
